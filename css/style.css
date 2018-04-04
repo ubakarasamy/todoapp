@@ -1,0 +1,81 @@
+.navbar
+{
+    margin-bottom: 0px;
+}
+header
+{
+    background-color:#22859a;
+}
+header .pull-right .btn-success{
+    margin-top: 20px;
+}
+
+
+/* panel */
+.list-group{
+    padding-top: 20px;
+}
+.list-group-item:hover
+{
+    background-color: #eee;
+    cursor: pointer;
+}
+.buttons
+{
+    opacity: 0;
+}
+.list-group-item:hover .buttons
+{
+    opacity: 1;
+}
+.buttons
+{
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    top: 10px;
+    right: 20px;
+}
+.pannel-footer{
+    background-color: #eee;
+}
+input.task-input
+{
+    width: 100%;
+    border: none;
+    font-size: 18;
+    height: 46px;
+    line-height: 1.33333;
+    display: block;
+    font-style: italic;
+}
+input.task-input:hover, input.task-input:focus
+{
+    outline: none;
+}
+.done 
+{
+    text-decoration: line-through;
+    color: #b6b6b6;
+}
+.task-item td
+{
+    position: relative;
+}
+.row-buttons
+{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    height: 20px;
+    width: 40px;
+}
+
+table.table tr .row-buttons
+{
+    opacity: 0;
+}
+table.table tr:hover .row-buttons
+{
+    opacity: 1;
+}
